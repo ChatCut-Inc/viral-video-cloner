@@ -5,7 +5,7 @@
 Keep the moves, the camera and every cut. Swap in your people, products and world.</p>
 
 <p align="center">
-  <a href="https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&install_source=oss_viral_cloner&utm_content=nav"><b>Website</b></a>
+  <a href="https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=nav"><b>Website</b></a>
   &nbsp;&bull;&nbsp;
   <a href="#examples"><b>Examples</b></a>
   &nbsp;&bull;&nbsp;
@@ -40,7 +40,7 @@ Then ask your agent in plain words:
 Recreate this video with me as the skater: https://www.tiktok.com/@creator/video/123  (attach me.jpg)
 ```
 
-On first use, the skill sets up [ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&install_source=oss_viral_cloner&utm_content=install) (free, macOS and Windows) and connects it to your agent. The first time, your agent may ask you to start a new conversation once ChatCut is connected, because agents load tools when a conversation starts. Recreations need a ChatCut Pro plan. Before anything renders, your agent tells you how long the result will be and roughly how many credits it costs. Nothing starts until you say go.
+On first use, the skill sets up [ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=install) (free, macOS and Windows) and connects it to your agent. The first time, your agent may ask you to start a new conversation once ChatCut is connected, because agents load tools when a conversation starts. Recreations need a ChatCut Pro plan. Before anything renders, your agent tells you how long the result will be and roughly how many credits it costs. Nothing starts until you say go.
 
 ## Examples
 
@@ -95,7 +95,7 @@ Have your own footage instead? The agent can also cut it to the source's rhythm,
 ## Pricing
 
 - The skill is free and open source. ChatCut Desktop is free to download.
-- Recreations are generated in the cloud and need a ChatCut Pro plan; they use the plan's credits ([pricing](https://chatcut.io/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&install_source=oss_viral_cloner&utm_content=pricing)). As a guide: 8 seconds at 720p is about 9 credits, at 1080p about 21.
+- Recreations are generated in the cloud and need a ChatCut Pro plan; they use the plan's credits ([pricing](https://chatcut.io/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=pricing)). As a guide: 8 seconds at 720p is about 9 credits, at 1080p about 21.
 - Your agent quotes the length and estimated credits before every render. See [docs/pricing.md](docs/pricing.md).
 
 ## Use it responsibly
@@ -117,7 +117,7 @@ Full policy: [docs/responsible-use.md](docs/responsible-use.md). Report misuse t
 
 **How is it different from other recreation tools?** You ask in plain words inside Claude Code or Codex: no ComfyUI graph and no NVIDIA GPU, because rendering runs in the cloud. The agent writes a shot-by-shot plan first, so cut points line up with the source, and the result opens in an editor where you can keep cutting.
 
-**No agent?** Download [ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&install_source=oss_viral_cloner&utm_content=faq), open Viral Video Cloner under Skills, and add the video and your photos.
+**No agent?** Download [ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=faq), open Viral Video Cloner under Skills, and add the video and your photos.
 
 ## Repository
 
@@ -135,4 +135,4 @@ Made something good with it? [Share your recreation](https://github.com/ChatCut-
 
 The skill, plans and docs are released under the [Apache License 2.0](LICENSE). Example media is licensed separately, mostly under CC BY 4.0; see [examples/MEDIA-LICENSE.md](examples/MEDIA-LICENSE.md). ChatCut and Viral Video Cloner are trademarks of ChatCut; see [TRADEMARK.md](TRADEMARK.md).
 
-<p align="center"><sub>Built by <a href="https://chatcut.io/?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&install_source=oss_viral_cloner&utm_content=footer">ChatCut</a>, the AI video editor your agent can drive.</sub></p>
+<p align="center"><sub>Built by <a href="https://chatcut.io/?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=footer">ChatCut</a>, the AI video editor your agent can drive.</sub></p>

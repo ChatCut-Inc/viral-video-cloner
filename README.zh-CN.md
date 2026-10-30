@@ -5,7 +5,7 @@
 动作、运镜、切点都不变，人、商品和场景换成你的。</p>
 
 <p align="center">
-  <a href="https://chatcut.io/zh/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&install_source=oss_viral_cloner&utm_content=nav_zh"><b>官网</b></a>
+  <a href="https://chatcut.io/zh/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=nav_zh"><b>官网</b></a>
   &nbsp;&bull;&nbsp;
   <a href="#示例"><b>示例</b></a>
   &nbsp;&bull;&nbsp;
@@ -39,7 +39,7 @@ npx skills add ChatCut-Inc/viral-video-cloner -g
 用我当滑板主角，复刻这条视频：<视频链接或本地文件>（附上 me.jpg）
 ```
 
-第一次用时，技能会帮你装好 [ChatCut 桌面端](https://chatcut.io/zh/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&install_source=oss_viral_cloner&utm_content=install_zh)（免费，支持 macOS 和 Windows），并接到你的 agent 上。第一次接好 ChatCut 后，agent 可能会请你开一个新对话再发一遍，因为 agent 只在对话开始时加载工具。复刻需要 ChatCut Pro 会员。开始生成前，agent 会先告诉你成片多长、大约花多少积分，你同意了才开始。
+第一次用时，技能会帮你装好 [ChatCut 桌面端](https://chatcut.io/zh/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=install_zh)（免费，支持 macOS 和 Windows），并接到你的 agent 上。第一次接好 ChatCut 后，agent 可能会请你开一个新对话再发一遍，因为 agent 只在对话开始时加载工具。复刻需要 ChatCut Pro 会员。开始生成前，agent 会先告诉你成片多长、大约花多少积分，你同意了才开始。
 
 ## 示例
 
@@ -94,7 +94,7 @@ npx skills add ChatCut-Inc/viral-video-cloner -g
 ## 怎么收费
 
 - 技能免费、开源；ChatCut 桌面端免费下载。
-- 复刻在云端生成，需要 ChatCut Pro 会员，用会员积分支付（[价格](https://chatcut.io/zh/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&install_source=oss_viral_cloner&utm_content=pricing_zh)）。参考：8 秒 720p 约 9 积分，1080p 约 21 积分。
+- 复刻在云端生成，需要 ChatCut Pro 会员，用会员积分支付（[价格](https://chatcut.io/zh/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=pricing_zh)）。参考：8 秒 720p 约 9 积分，1080p 约 21 积分。
 - 每次生成前，agent 都会先报时长和预估积分。详见 [docs/pricing.md](docs/pricing.md)。
 
 ## 安全与授权
@@ -116,7 +116,7 @@ npx skills add ChatCut-Inc/viral-video-cloner -g
 
 **和其他复刻工具有什么不同？** 在 Claude Code 或 Codex 里用一句话说清要换什么就行，不用搭 ComfyUI，也不需要 NVIDIA 显卡，生成在云端跑。agent 会先写逐镜头的规划，切点和原片对得上；成片直接进剪辑器，还能接着剪。
 
-**没有 agent 怎么办？** 下载 [ChatCut 桌面端](https://chatcut.io/zh/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&install_source=oss_viral_cloner&utm_content=faq_zh)，在「技能」里打开爆款复刻，放进原片和你的照片就行。
+**没有 agent 怎么办？** 下载 [ChatCut 桌面端](https://chatcut.io/zh/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=faq_zh)，在「技能」里打开爆款复刻，放进原片和你的照片就行。
 
 ## 仓库结构
 
@@ -134,4 +134,4 @@ docs/                        原理、计费、安全与授权
 
 技能、规划和文档以 [Apache License 2.0](LICENSE) 发布。示例素材单独授权，大部分是 CC BY 4.0，见 [examples/MEDIA-LICENSE.md](examples/MEDIA-LICENSE.md)。ChatCut 和 Viral Video Cloner 是 ChatCut 的商标，见 [TRADEMARK.md](TRADEMARK.md)。
 
-<p align="center"><sub>由 <a href="https://chatcut.io/zh/?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&install_source=oss_viral_cloner&utm_content=footer_zh">ChatCut</a> 出品：能让 agent 直接上手剪辑的 AI 视频编辑器。</sub></p>
+<p align="center"><sub>由 <a href="https://chatcut.io/zh/?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=footer_zh">ChatCut</a> 出品：能让 agent 直接上手剪辑的 AI 视频编辑器。</sub></p>

@@ -1,7 +1,7 @@
 # How it works
 
 Viral Video Cloner is a skill: instructions your agent follows. The rendering happens in
-[ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=docs&utm_campaign=oss_viral_cloner&install_source=oss_viral_cloner),
+[ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=docs&utm_campaign=oss_viral_cloner),
 which connects to your agent as a local MCP server and runs generation in the cloud.
 
 ```text
