@@ -1,0 +1,38 @@
+name: Share a recreation
+description: Show what you made. The best ones join the examples.
+title: "[Showcase] "
+labels: ["showcase"]
+body:
+  - type: textarea
+    id: video
+    attributes:
+      label: Original and recreation
+      description: Drag in the original and your recreation (or one side-by-side video). GitHub accepts videos up to 10 MB.
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options:
+        - Motion transfer
+        - Object swap
+        - Batch
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: plan
+    attributes:
+      label: Prompt or plan (optional)
+      description: What you asked your agent, or the plan it submitted.
+      render: json
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights
+      options:
+        - label: Everyone recognizable in the recreation agreed to it, or is AI-generated.
+          required: true
+        - label: I may share the original clip shown here, and I'm happy for ChatCut to feature this with credit.
+          required: true

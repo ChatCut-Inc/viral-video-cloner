@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas (Discord)
+    url: https://discord.com/invite/sMjQPvwZTT
+    about: Ask the ChatCut team and other users.
+  - name: Account, credits and billing
+    url: mailto:team@chatcut.io
+    about: Problems with your ChatCut account go to the team directly.

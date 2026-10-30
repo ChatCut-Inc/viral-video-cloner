@@ -1,0 +1,6 @@
+# Example videos are hosted as GitHub attachments, not in this repository.
+*.mp4
+*.mov
+*.m4a
+.DS_Store
+.media-src/

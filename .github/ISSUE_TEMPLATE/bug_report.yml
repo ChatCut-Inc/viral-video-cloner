@@ -1,0 +1,30 @@
+name: Bug report
+description: Something went wrong while recreating a video.
+labels: ["bug"]
+body:
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and version
+      placeholder: Claude Code 2.1.x / Codex CLI 0.x
+    validations:
+      required: true
+  - type: input
+    id: desktop
+    attributes:
+      label: ChatCut Desktop version
+      placeholder: 0.8.x (Settings → About)
+  - type: textarea
+    id: asked
+    attributes:
+      label: What you asked for
+      description: Your message to the agent, and the source clip if it's public.
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+      description: The error your agent showed, or what looks wrong in the result.
+    validations:
+      required: true
