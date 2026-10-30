@@ -9,7 +9,7 @@ Recreate a video the user points to (a viral trend, a dance, a UGC ad or a TV co
 
 This skill starts the job. ChatCut keeps the exact steps current in two places, so follow them instead of improvising:
 
-- **Setup guide** for agents, as plain text: `https://chatcut.io/viralvideocloner?format=markdown&install_source=oss_viral_cloner`. Add `&h=codex` when you are Codex or `&h=claude` when you are Claude Code. It checks whether this agent is connected to ChatCut Desktop; installs, updates, opens and connects Desktop when needed; covers sign-in; and loads the workflow.
+- **Setup guide** for agents, as plain text: `https://chatcut.io/viralvideocloner`. Open this exact URL, with no query parameters: Codex's web tool can only open URLs its crawler has cached. If your web tool cannot open it, fetch it with `curl -sL https://chatcut.io/viralvideocloner`. It checks whether this agent is connected to ChatCut Desktop; installs, updates, opens and connects Desktop when needed; covers sign-in; and loads the workflow.
 - **Viral Video Cloner workflow**, catalog ID `e6bd8e47-5797-426f-ab0c-d7ea5c674078`, which Desktop serves through its `manage_skill` tool in the version that matches the installed app.
 
 ## Start here
