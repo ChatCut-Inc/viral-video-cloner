@@ -95,7 +95,7 @@ Have your own footage instead? The agent can also cut it to the source's rhythm,
 ## Pricing
 
 - The skill is free and open source. ChatCut Desktop is free to download.
-- Recreations are generated in the cloud and need a ChatCut membership; they use the membership's credits ([pricing](https://chatcut.io/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=pricing)). As a guide: 8 seconds at 720p is about 9 credits, at 1080p about 21.
+- Recreations are generated in the cloud and need a ChatCut membership; they use the membership's credits ([pricing](https://chatcut.io/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=pricing)). As a guide: 8 seconds at 720p is about 10 credits, at 1080p about 26.
 - Your agent quotes the length and estimated credits before every render. See [docs/pricing.md](docs/pricing.md).
 
 ## Use it responsibly

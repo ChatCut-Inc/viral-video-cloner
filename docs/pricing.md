@@ -7,15 +7,15 @@
 
 ## Typical cost
 
-Measured on the examples in this repository (October 2026). Your agent always quotes the real
-estimate before rendering.
+Typical quotes as of November 2026. Your agent always quotes the real estimate before rendering.
+Costs listed on the examples were measured in October 2026, so today's quote can be a little higher.
 
 | Length | Resolution | Credits |
 | --- | --- | --- |
 | 4 s test | 480p | ≈2 |
-| 8 s | 720p | ≈9 |
-| 10 s | 720p | ≈12 |
-| 8 s | 1080p | ≈21 |
+| 8 s | 720p | ≈10 |
+| 10 s | 720p | ≈13 |
+| 8 s | 1080p | ≈26 |
 
 ## Before every render
 

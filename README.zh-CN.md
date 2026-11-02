@@ -94,7 +94,7 @@ npx skills add ChatCut-Inc/viral-video-cloner -g
 ## 怎么收费
 
 - 技能免费、开源；ChatCut 桌面端免费下载。
-- 复刻在云端生成，需要 ChatCut 会员，用会员积分支付（[价格](https://chatcut.io/zh/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=pricing_zh)）。参考：8 秒 720p 约 9 积分，1080p 约 21 积分。
+- 复刻在云端生成，需要 ChatCut 会员，用会员积分支付（[价格](https://chatcut.io/zh/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=pricing_zh)）。参考：8 秒 720p 约 10 积分，1080p 约 26 积分。
 - 每次生成前，agent 都会先报时长和预估积分。详见 [docs/pricing.md](docs/pricing.md)。
 
 ## 安全与授权
