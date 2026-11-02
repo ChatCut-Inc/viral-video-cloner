@@ -39,7 +39,7 @@ npx skills add ChatCut-Inc/viral-video-cloner -g
 用我当滑板主角，复刻这条视频：<视频链接或本地文件>（附上 me.jpg）
 ```
 
-第一次用时，技能会帮你装好 [ChatCut 桌面端](https://chatcut.io/zh/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=install_zh)（免费，支持 macOS 和 Windows），并接到你的 agent 上。第一次接好 ChatCut 后，agent 可能会请你开一个新对话再发一遍，因为 agent 只在对话开始时加载工具。复刻需要 ChatCut Pro 会员。开始生成前，agent 会先告诉你成片多长、大约花多少积分，你同意了才开始。
+第一次用时，技能会帮你装好 [ChatCut 桌面端](https://chatcut.io/zh/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=install_zh)（免费，支持 macOS 和 Windows），并接到你的 agent 上。第一次装好后，agent 会请你先登录 ChatCut，再开一个新对话发一遍，因为 agent 只在对话开始时加载工具。复刻需要 ChatCut 会员。开始生成前，agent 会先告诉你成片多长、大约花多少积分，你同意了才开始。
 
 ## 示例
 
@@ -94,7 +94,7 @@ npx skills add ChatCut-Inc/viral-video-cloner -g
 ## 怎么收费
 
 - 技能免费、开源；ChatCut 桌面端免费下载。
-- 复刻在云端生成，需要 ChatCut Pro 会员，用会员积分支付（[价格](https://chatcut.io/zh/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=pricing_zh)）。参考：8 秒 720p 约 9 积分，1080p 约 21 积分。
+- 复刻在云端生成，需要 ChatCut 会员，用会员积分支付（[价格](https://chatcut.io/zh/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=pricing_zh)）。参考：8 秒 720p 约 9 积分，1080p 约 21 积分。
 - 每次生成前，agent 都会先报时长和预估积分。详见 [docs/pricing.md](docs/pricing.md)。
 
 ## 安全与授权
@@ -108,7 +108,7 @@ npx skills add ChatCut-Inc/viral-video-cloner -g
 
 ## 常见问题
 
-**支持哪些 agent？** 在你电脑上运行的 Claude Code 和 Codex（macOS 13 及以上或 Windows x64，安装时需要 Node.js 22 及以上）。纯网页聊天和云端沙箱连不到 ChatCut 桌面端。
+**支持哪些 agent？** 在你电脑上运行的 Claude Code 和 Codex（macOS 13 及以上或 Windows x64）。纯网页聊天和云端沙箱连不到 ChatCut 桌面端。
 
 **原片可以用什么？** 视频链接或本地文件都行。每次复刻 4–30 秒；更长的视频，agent 会挑动作最完整的一段，并告诉你选了哪段。
 

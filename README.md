@@ -40,7 +40,7 @@ Then ask your agent in plain words:
 Recreate this video with me as the skater: https://www.tiktok.com/@creator/video/123  (attach me.jpg)
 ```
 
-On first use, the skill sets up [ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=install) (free, macOS and Windows) and connects it to your agent. The first time, your agent may ask you to start a new conversation once ChatCut is connected, because agents load tools when a conversation starts. Recreations need a ChatCut Pro plan. Before anything renders, your agent tells you how long the result will be and roughly how many credits it costs. Nothing starts until you say go.
+On first use, the skill sets up [ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=install) (free, macOS and Windows) and connects it to your agent. The first time, your agent asks you to sign in to ChatCut and start a new conversation, because agents load tools when a conversation starts. Recreations need a ChatCut membership. Before anything renders, your agent tells you how long the result will be and roughly how many credits it costs. Nothing starts until you say go.
 
 ## Examples
 
@@ -95,7 +95,7 @@ Have your own footage instead? The agent can also cut it to the source's rhythm,
 ## Pricing
 
 - The skill is free and open source. ChatCut Desktop is free to download.
-- Recreations are generated in the cloud and need a ChatCut Pro plan; they use the plan's credits ([pricing](https://chatcut.io/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=pricing)). As a guide: 8 seconds at 720p is about 9 credits, at 1080p about 21.
+- Recreations are generated in the cloud and need a ChatCut membership; they use the membership's credits ([pricing](https://chatcut.io/pricing?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=pricing)). As a guide: 8 seconds at 720p is about 9 credits, at 1080p about 21.
 - Your agent quotes the length and estimated credits before every render. See [docs/pricing.md](docs/pricing.md).
 
 ## Use it responsibly
@@ -109,7 +109,7 @@ Full policy: [docs/responsible-use.md](docs/responsible-use.md). Report misuse t
 
 ## FAQ
 
-**Which agents work?** Claude Code and Codex, running on your computer (macOS 13+ or Windows x64, with Node.js 22+ for setup). Browser-only chats and cloud sandboxes can't reach ChatCut Desktop.
+**Which agents work?** Claude Code and Codex, running on your computer (macOS 13+ or Windows x64). Browser-only chats and cloud sandboxes can't reach ChatCut Desktop.
 
 **What can I use as the source?** A link or a local file. Each recreation covers 4 to 30 seconds; for longer videos your agent picks the strongest part and tells you which.
 
