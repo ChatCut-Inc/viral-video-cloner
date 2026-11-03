@@ -11,9 +11,9 @@ The user's message is the request: keep the video, photos, footage and wording t
 
 ## Start here
 
-If this conversation lists tools from the local MCP server `chatcut_desktop`, call `get_active_project` (it may be listed as `chatcut_desktop.get_active_project` or `mcp__chatcut_desktop__get_active_project`). A hosted ChatCut Web connector is a different product; do not use it for this.
+If this conversation lists tools from the local MCP server `chatcut_desktop` (include the host's deferred or searchable tools), call `get_active_project` (it may be listed as `chatcut_desktop.get_active_project` or `mcp__chatcut_desktop__get_active_project`). A hosted ChatCut Web connector is a different product; do not use it for this.
 
-- `signedIn: false`, `get_active_project` is the only ChatCut tool listed, or a tool says ChatCut is signed out: ChatCut is installed and only needs sign-in. Go to "Finish setup". Do not reinstall or run the Doctor Skill.
+- `signedIn: false`, or a tool says ChatCut is signed out or asks for sign-in: ChatCut is installed and only needs sign-in. Go to "Finish setup". Do not reinstall or run the Doctor Skill.
 - Otherwise `surface: "desktop"`, even when `projectId` is null, means ChatCut is connected. Do not reinstall; go to "Recreate".
 - No `chatcut_desktop` tools: go to "Install".
 
@@ -26,15 +26,19 @@ Read the official guide with `curl -fsSL https://chatcut.io/desktop` (`curl.exe`
 
 In an agent sandbox (Codex's default), request to run the guide fetch and the installer outside it right away: inside it they fail, and macOS reports a valid app as damaged.
 
-The installer verifies the app and opens it, and ChatCut then connects itself to this agent, so nobody clicks Connect. Do not run `codesign` or `spctl`, inspect windows with `osascript`, or build your own app, launcher or web page. If the installer fails, report its actual error. If it says ChatCut must be quit for an update, ask the user to save their work and quit normally, then run it again.
+The installer verifies the app and opens it, and ChatCut then connects itself to this agent, so nobody clicks Connect. Do not run `codesign` or `spctl`, inspect windows with `osascript`, or build your own app, launcher or web page. If the installer fails, report its actual error. If it says ChatCut must be quit for an update, ask the user to save their work and quit normally, then run it again. Then go to "Finish setup".
 
 ## Finish setup
 
-This conversation loaded its tools when it started, so it cannot use ChatCut yet. Tell the user, in their language and in this order: sign in inside ChatCut if it asks; start a new conversation; send their original request again. Give them that request word for word with the full paths of their files, ready to copy, and stop.
+Ask only for what is actually missing, and check the tools again after each step:
+
+- ChatCut is connected here but signed out: follow the `nextStep` the tool returned; on newer versions, repeating the account call opens sign-in by itself. If it returned none, ask the user to sign in inside ChatCut. When only the user can finish sign-in, ask them to reply when done and stop, without mentioning a new conversation. Then check again and continue here.
+- This conversation still lacks ChatCut's tools, often because it loaded its tools before ChatCut was ready: if this host documents a way to reload tools inside a conversation, use it. Otherwise tell the user, in their language and in this order: sign in inside ChatCut if it asks; start a new conversation (for an agent in a terminal, exit it and open it again); send their original request again. Give them that request word for word with the full paths of their files, ready to copy, and stop.
+- A new conversation still lacks them: ask the user to restart their agent app, then follow the connection steps in the official guide. Report what you checked instead of guessing the cause.
 
 ## Recreate
 
 1. Recreating needs a ChatCut membership. Check this first, before creating a project, with `read_billing`, or `estimate_generation` if it is not listed; a failed check does not mean the account is free. If the user is not a member, explain that and open `chatcut://billing` with this computer's URL opener, outside any sandbox. If it cannot open, tell them where it is: inside a project, **Upgrade** (升级) at the top right; outside a project, click the avatar at the bottom left. The user chooses and pays, never you. Stop until they have, then check again and continue with what they already gave.
-2. Read the `video-gen` Skill that ChatCut installed for this agent (listed with your other Skills as `chatcut-video-gen`) and the live `submit_video_remake` tool description, and follow them with the user's video and changes. Do not look for another Skill with `manage_skill`. If `submit_video_remake` is not listed, this ChatCut is out of date: run the installer above, then "Finish setup".
+2. Read the `video-gen` Skill that ChatCut installed for this agent (listed with your other Skills as `chatcut-video-gen`) and the live `submit_video_remake` tool description, and follow them with the user's video and changes. Do not look for another Skill with `manage_skill`. If `submit_video_remake` is not listed, search the host's deferred tools. Still missing does not prove ChatCut is out of date: run the installer above once, which updates an older ChatCut and reports when it is already current, then go to "Finish setup".
 3. If the source video or what to swap in is missing, ask once, in one short message, for the video link or file, photos or footage of the person, product or place, and one sentence on what to change. Never pick a video yourself.
 4. A generation you submit starts at once and spends credits with no confirmation in ChatCut, so first tell the user the length and estimated credits, and wait for their go-ahead.

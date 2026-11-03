@@ -21,7 +21,7 @@ Recreate ./skate.mp4 with me as the skater (me.jpg), on a spring lane in Seoul. 
 
 ## Plan
 
-[`plan-seoul.json`](plan-seoul.json) and [`plan-anime.json`](plan-anime.json) are exactly what the agent submitted to ChatCut, with project-specific IDs removed. Image numbers in a plan refer to the reference images listed above, in that order.
+[`plan-seoul.json`](plan-seoul.json) and [`plan-anime.json`](plan-anime.json) are what the agent submitted to ChatCut, with project-specific IDs removed and the shot extended to the end of the 10-second range, which the current remake tool requires. Image numbers in a plan refer to the reference images listed above, in that order.
 
 ## Source
 
