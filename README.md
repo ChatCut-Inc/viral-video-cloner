@@ -40,7 +40,7 @@ Then ask your agent in plain words:
 Recreate this video with me as the skater: https://www.tiktok.com/@creator/video/123  (attach me.jpg)
 ```
 
-On first use, the skill sets up [ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=install) (free, macOS and Windows) and connects it to your agent. The first time, your agent may ask you to sign in to ChatCut and reload its tools or start a new conversation, because most agents load tools when a conversation starts. Recreations need a ChatCut membership. Before anything renders, your agent tells you how long the result will be and roughly how many credits it costs. Nothing starts until you say go.
+On first use, the skill sets up [ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=install) (free, macOS and Windows) and connects it to your agent. If sign-in is needed, your agent guides you through it and continues in the same conversation. If tools or Skills have not loaded, it follows your agent app's requirements to refresh, restart and resume, or start a new conversation. When a new conversation is needed, it gives you a complete prompt to copy, carrying your request, media and setup progress forward. Recreations need a ChatCut membership. Before anything renders, your agent tells you how long the result will be and roughly how many credits it costs. Nothing starts until you say go.
 
 ## Examples
 

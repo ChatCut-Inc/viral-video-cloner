@@ -39,7 +39,7 @@ npx skills add ChatCut-Inc/viral-video-cloner -g
 用我当滑板主角，复刻这条视频：<视频链接或本地文件>（附上 me.jpg）
 ```
 
-第一次用时，技能会帮你装好 [ChatCut 桌面端](https://chatcut.io/zh/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=install_zh)（免费，支持 macOS 和 Windows），并接到你的 agent 上。第一次装好后，agent 可能会请你登录 ChatCut，再刷新工具或开一个新对话，因为多数 agent 只在对话开始时加载工具。复刻需要 ChatCut 会员。开始生成前，agent 会先告诉你成片多长、大约花多少积分，你同意了才开始。
+第一次用时，技能会帮你装好 [ChatCut 桌面端](https://chatcut.io/zh/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=install_zh)（免费，支持 macOS 和 Windows），并接到你的 agent 上。需要登录时，agent 会引导你完成登录，再在原对话继续。如果工具或 Skill 尚未加载，它会按当前 agent 应用的要求，选择刷新、重启后恢复原对话，或新开对话。需要新对话时，它会提供一段完整的可复制提示语，带上你的需求、素材和已完成的安装状态。复刻需要 ChatCut 会员。开始生成前，agent 会先告诉你成片多长、大约花多少积分，你同意了才开始。
 
 ## 示例
 
