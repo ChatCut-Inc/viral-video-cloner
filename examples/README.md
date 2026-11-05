@@ -37,7 +37,9 @@ before every render.
 ```
 
 Motion-transfer plans use `scene`, `shots`, `subjects` and optionally `place` instead of `targets`.
-See [docs/how-it-works.md](../docs/how-it-works.md).
+Newer ChatCut versions also let an object-swap plan add `scene`, `stays` and `shots`, a shot-by-shot
+guide for the edit. The object-swap plans here were submitted before that, so they leave them out.
+Your agent reads the current format from the tool. See [docs/how-it-works.md](../docs/how-it-works.md).
 
 ## Add yours
 

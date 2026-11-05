@@ -6,10 +6,10 @@ attached to the READMEs) is licensed separately:
 
 - **CC BY 4.0** for every example whose source ChatCut made itself: `skate-one-take-two-worlds`,
   `truck-jump-snowfield`, `toy-car-train-tunnel`, `ugc-moka-pot`, `ugc-four-creators`, `showcase`,
-  and the images in `docs/media/`. Share, remix and repost them; credit "ChatCut" with a link to
+  and the images in `docs/media/` other than `hero.webp`. Share, remix and repost them; credit "ChatCut" with a link to
   this repository.
-- **All rights reserved** for `alvora-activewear-film` and `crowd-dance-three-worlds`. They follow
-  third-party sources (a brand's ad and a music video's choreography) as motion guides. You may
+- **All rights reserved** for `alvora-activewear-film`, `crowd-dance-three-worlds` and
+  `docs/media/hero.webp`, which comes from the crowd dance. They follow third-party sources (a brand's ad and a music video's choreography) as motion guides. You may
   link to them, but not reuse them.
 
 Every person shown is AI-generated. The third-party sources are not included or redistributed here.

@@ -1,13 +1,12 @@
 <h1 align="center">Viral Video Cloner</h1>
 
-<p align="center"><b>Recreate viral videos with your AI agent.</b><br>
-1 clip, 1 photo, 0 reshoots.<br>
-Keep the moves, the camera and every cut. Swap in your people, products and world.</p>
+<p align="center"><b>Recreate any viral video with your AI agent.</b><br>
+Keep the moves and camera. Swap in your face, product or world.</p>
 
 <p align="center">
   <a href="https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=nav"><b>Website</b></a>
   &nbsp;&bull;&nbsp;
-  <a href="#examples"><b>Examples</b></a>
+  <a href="#what-you-can-change"><b>Examples</b></a>
   &nbsp;&bull;&nbsp;
   <a href="docs/how-it-works.md"><b>How it works</b></a>
   &nbsp;&bull;&nbsp;
@@ -22,11 +21,9 @@ Keep the moves, the camera and every cut. Swap in your people, products and worl
 </p>
 
 <p align="center">
-  <img src="docs/media/hero.webp" width="960" alt="One skateboarding take recreated twice. Left: the original. Right: the same push, ollie and grind recreated in a Seoul spring lane and in an anime seaside town.">
+  <img src="docs/media/hero.webp" width="960" alt="One crowd dance recreated as three different worlds: a white gothic court, a red-feather revue and a 1930s aquacade, wiped together on the beat.">
 </p>
-<p align="center"><sub>Left: the original. Right: two recreations, one reference photo each. Same push, ollie, grind and camera. <a href="examples/skate-one-take-two-worlds">See the plans</a>.</sub></p>
-
-**Hypit clones a video's edit: the script, captions and B-roll. Viral Video Cloner keeps the footage itself.** The motion, the camera move and every cut stay as filmed, and the people, products and world become yours.
+<p align="center"><sub>One crowd dance recreated as three worlds: a white gothic court, a red-feather revue and a 1930s aquacade. <a href="https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=hero">Watch the full video</a>.</sub></p>
 
 ## Install
 
@@ -34,46 +31,60 @@ Keep the moves, the camera and every cut. Swap in your people, products and worl
 npx skills add ChatCut-Inc/viral-video-cloner -g
 ```
 
-Then ask your agent in plain words:
+## Start in three steps
+
+1. **Pick a video to recreate.** A link or a file works.
+2. **Send your request to your AI agent.** It sets up ChatCut, then asks for the video and your photos or footage.
+3. **AI makes your version.** Edit or export the result.
 
 ```text
-Recreate this video with me as the skater: https://www.tiktok.com/@creator/video/123  (attach me.jpg)
+Recreate this dance with me in the lead: https://www.tiktok.com/@creator/video/123  (attach me.jpg)
 ```
 
 On first use, the skill sets up [ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=install) (free, macOS and Windows) and connects it to your agent. If sign-in is needed, your agent guides you through it and continues in the same conversation. If tools or Skills have not loaded, it follows your agent app's requirements to refresh, restart and resume, or start a new conversation. When a new conversation is needed, it gives you a complete prompt to copy, carrying your request, media and setup progress forward. Recreations need a ChatCut membership. Before anything renders, your agent tells you how long the result will be and roughly how many credits it costs. Nothing starts until you say go.
 
-## Examples
+## What it's for
 
-### Motion transfer: new cast, new world, same stunt
+**Viral, UGC and TV ads, recreated.** Take content that already works and make it yours.
+
+| Viral trends | UGC ads | TV commercials | Product showcase |
+| --- | --- | --- | --- |
+| <video src="UPLOAD:usecase-viral" controls muted width="200"></video> | <video src="UPLOAD:usecase-ugc" controls muted width="200"></video> | <video src="UPLOAD:usecase-tvc" controls muted width="200"></video> | <video src="UPLOAD:usecase-fashion" controls muted width="200"></video> |
+| Put yourself into the dance or meme everyone is making. | The same selfie review, with your product in hand. | The same cinematic shot, starring your product. | One try-on video, dressed in your new collection. |
+
+## What you can change
+
+### Motion transfer
+
+The movement and camera stay exactly as filmed. Everything performing it is yours.
 
 <video src="UPLOAD:truck-compare" controls muted></video>
 
-A man on a camp chair in a golden field becomes a woman in white on a snowy plain at sunrise, and the black pickup becomes an orange rally truck. The jump, the landing and the camera are untouched. `16:9 · 8 s · 1080p · ≈21 credits` · [plan](examples/truck-jump-snowfield)
+A man on a camp chair in a golden field becomes a woman in white on a snowy plain at sunrise, and the black pickup becomes an orange rally truck. `16:9 · 8 s · 1080p · ≈21 credits` · [plan](examples/truck-jump-snowfield)
 
-### Object swap: change one thing, keep every other pixel
+### Object swap
+
+Say what should be different: a person, a product, an outfit. The rest of the shot stays untouched.
 
 <video src="UPLOAD:toycar-compare" controls muted></video>
 
-A model car on a train windowsill grows into a real car in the tunnel. Only the car changes: the sill, the forest and the tunnel lights stay as filmed. `16:9 · 8 s · 720p · ≈8.5 credits` · [plan](examples/toy-car-train-tunnel)
+A model car on a train windowsill grows into a real car in the tunnel. `16:9 · 8 s · 720p · ≈8.5 credits` · [plan](examples/toy-car-train-tunnel)
 
 <video src="UPLOAD:swap-strip" controls muted></video>
 
-Each clip wipes from the original to the recreation. A creator's tumbler becomes your moka pot while her face, words and room stay. A poodle barista becomes a British shorthair. A canister on a back seat becomes a gift box. `9:16 · 8 s · 720p · ≈9 credits each` · plans: [moka pot](examples/ugc-moka-pot), [cat barista and gift box](examples/showcase)
+A creator's tumbler becomes your moka pot, a poodle barista becomes a British shorthair, and a canister on a back seat becomes a gift box. `9:16 · 8 s · 720p · ≈9 credits each` · plans: [moka pot](examples/ugc-moka-pot), [cat barista and gift box](examples/showcase)
 
-### Batch: one ad, many creators
+### Batch
+
+One UGC ad, four creators in four settings. Same product, same pitch.
 
 <video src="UPLOAD:batch-strip" controls muted></video>
 
-One UGC ad recreated with four creators in four settings: a café, a parked car, a rooftop and a study. Same tumbler, same pitch, same timing. `9:16 · 8 s each · 4 versions` · [plans](examples/ugc-four-creators)
+`9:16 · 8 s each · 4 versions` · [plans](examples/ugc-four-creators)
 
-**More:** a crowd dance in three worlds, an activewear brand film and seven short recreations (a cat barista, a giant's boot, a ceiling-fan outfit change...) are in [examples/](examples/README.md).
+## Showcase
 
-## What people make with it
-
-- **Ads.** Take an ad that already performs and recreate it shot for shot with your product. Same pacing, same camera, new product.
-- **UGC.** Keep a creator's delivery and put your product in their hand, or run one script through several creators and settings.
-- **Choreography.** Put yourself, your mascot or your character into a trending dance with the original moves and cuts.
-- **Brand films.** Restage a cinematic shot in your brand's world: your colors, your locations, your cast.
+**Turn one video into any reality.** [Seven short recreations](examples/showcase) and more examples, each with the exact plan, are in [examples/](examples/README.md).
 
 ## How it works
 
@@ -81,14 +92,6 @@ One UGC ad recreated with four creators in four settings: a café, a parked car,
 2. **You confirm length and cost.** Recreations run from 4 to 30 seconds.
 3. **ChatCut renders it.** The source's motion guides the new video, so moves, camera work and cut points follow the original. The source audio is kept.
 4. **The result lands in a ChatCut project,** ready to edit further or export.
-
-Three ways to recreate:
-
-| Mode | What changes | What stays |
-| --- | --- | --- |
-| **Motion transfer** | People, setting and style, rebuilt from your reference photos | Movement, camera and timing |
-| **Object swap** | Only the person, product or outfit you name | Every other pixel of the shot |
-| **Batch** | A new cast or product per version | The shot, the pitch and the timing |
 
 Have your own footage instead? The agent can also cut it to the source's rhythm, captions and effects. Details: [docs/how-it-works.md](docs/how-it-works.md).
 
@@ -109,15 +112,29 @@ Full policy: [docs/responsible-use.md](docs/responsible-use.md). Report misuse t
 
 ## FAQ
 
-**Which agents work?** Claude Code and Codex, running on your computer (macOS 13+ or Windows x64). Browser-only chats and cloud sandboxes can't reach ChatCut Desktop.
+**What is Viral Video Cloner?** A ChatCut skill that recreates a video you like. Give your AI agent the original video and your photos or footage. It keeps the moves and camera while putting in your person, product or scene.
 
-**What can I use as the source?** A link or a local file. Each recreation covers 4 to 30 seconds; for longer videos your agent picks the strongest part and tells you which.
+**Which AI agents can I use?** AI agents that run on your computer, such as Claude Code and Codex (macOS 13+ or Windows x64). Browser-only chats and cloud sandboxes can't reach ChatCut Desktop. The first time, your agent sets up ChatCut for you.
 
-**How many reference photos?** Up to 6 per recreation: people, products, outfits or places.
+**Can I use it without an AI agent?** Yes. Download [ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=faq), open Viral Video Cloner in Skills, and add the original video and your photos or footage.
+
+**What's the difference between motion transfer and object swap?** Motion transfer keeps the moves, camera and timing and rebuilds the cast and scene from your photos. Object swap keeps the whole shot and changes only the person, product or outfit you name.
+
+**Do I have to choose a mode?** No. Say what you want to change and your AI agent picks the mode.
+
+**What videos can I use?** A video link or a local file. Each recreation covers 4 to 30 seconds; for a longer video, your agent picks the part with the fullest action and tells you.
+
+**Do I need video editing experience?** No. Say what you want to change; your AI agent handles the rest.
+
+**How many photos can I add?** Up to 6 per recreation: people, products, outfits or places.
+
+**How much does it cost?** Recreations use ChatCut credits. Before generating, you see how long the recreation will be and roughly how many credits it costs, and nothing starts until you confirm.
+
+**Does it keep the original audio?** Yes. The recreation keeps the source audio. If the source has no sound, it keeps the sound the model generates.
+
+**Where does the finished video go?** Into a ChatCut project, where you can keep editing it or export it.
 
 **How is it different from other recreation tools?** You ask in plain words inside Claude Code or Codex: no ComfyUI graph and no NVIDIA GPU, because rendering runs in the cloud. The agent writes a shot-by-shot plan first, so cut points line up with the source, and the result opens in an editor where you can keep cutting.
-
-**No agent?** Download [ChatCut Desktop](https://chatcut.io/viralvideocloner?utm_source=github&utm_medium=readme&utm_campaign=oss_viral_cloner&utm_content=faq), open Viral Video Cloner under Skills, and add the video and your photos.
 
 ## Repository
 

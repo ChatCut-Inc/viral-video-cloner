@@ -17,7 +17,9 @@ Your agent watches the source and writes a plan before anything is generated. A 
 - **shots**: every cut, with start and end times, and what happens in each shot;
 - **subjects** or **targets**: who or what is recast, identified by role ("the skateboarder in
   every frame", "the tumbler she holds up"), and what replaces it, taken from your reference photos;
-- **scene**: for motion transfer, the new place and light;
+- **scene**: for motion transfer, the new place and light; for object swap in newer ChatCut versions,
+  what happens in the source;
+- **stays**: for object swap in newer ChatCut versions, everything that must not change;
 - **constraints**: what must hold in every frame ("no text or logos", "her whole body stays in frame").
 
 Each example in [examples/](../examples/README.md) includes the exact plan that produced it.
